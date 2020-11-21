@@ -1,0 +1,148 @@
+body{
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.left{
+ /* border: 1px solid red; */
+ position: absolute;
+ top: 20px;
+ left: 20px;
+ display: inline-block;
+}
+
+.left img{
+  width: 110px;
+  opacity: 0.8;
+
+} 
+.left div{
+  text-align: center;
+  font-size: 14px;
+
+
+}
+
+/* mid box style  */
+.mid{
+  /* border: 1px solid rgb(224, 224, 231); */
+  display: block;
+  margin: 20px auto;
+  width: 45%;
+  
+  
+}
+.navbar{
+  display:inline-block;
+  
+  
+}
+
+.navbar li{
+  
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-left:  25px;
+  font-family:'Merriweather Sans', sans-serif ;
+  
+}
+
+.navbar li a{
+  color: beige;
+  text-decoration: none;
+  transition: color 1s,text-decoration 1s;
+  
+}
+
+.navbar li a:hover,.navbar li a.active{
+
+  text-decoration: underline;
+  color: rgb(71, 154, 223);
+  
+ 
+}
+
+/* right corner style  */
+.right{
+  /* border: 1px solid rgb(226, 215, 225); */
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  display: inline-block;
+}
+
+/* btn style  */
+.btn{
+margin: 9px 9px;
+color: white;
+background-color: black;
+padding: 10px 5px;
+border: 1px solid rgb(105, 179, 9);
+
+font-size: 12px;
+cursor: pointer;
+font-family:'Merriweather Sans', sans-serif ;
+text-transform: capitalize;
+transition: border-radius 1s, background-color 1s ;
+
+}
+
+.btn:hover{
+  color: azure;
+  background-color: rgb(34, 4, 59);
+  border-radius: 14px;
+}
+
+
+.container{
+  border: 1px solid #cacadc;
+  border-radius: 30px;
+  width: 31%;
+  margin: 110px 16px;
+  padding: 22px 74px;
+
+}
+.container h1{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 23px;
+  word-spacing: 5px;
+  margin-left: -2px;
+  text-transform: capitalize;
+}
+/* form style  */
+.form-group input{
+  text-align: center;
+  display: inline-block;
+  margin: 4px -24px;
+  padding: 9px 6px;
+  width: 440px;
+  font-size: 16px;
+  border-radius: 9px;
+  font-family:'Merriweather Sans', sans-serif;
+
+}
+
+.submit{
+  display: block;
+  border: 1px solid black;
+ 
+  background-color: black;
+  color: white;
+  padding: 11px 10px;
+  margin: 14px -26px;
+  width: 457px;
+  cursor: pointer;
+  font-family:'Merriweather Sans', sans-serif;
+  font-size: 19px;
+  transition: border-radius 1s,background-color 1s;
+}
+
+.submit:hover{
+  background-color: rgb(11, 49, 30);
+  color: white;
+  border-radius: 32px;
+}
+
+
+ 
+
